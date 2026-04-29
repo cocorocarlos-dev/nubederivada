@@ -3,56 +3,142 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nube Derivada</title>
+
+  <title>Nube Derivada | Sitios web y soluciones digitales</title>
+
+  <meta
+    name="description"
+    content="Nube Derivada crea sitios web modernos, rápidos y adaptados a negocios, emprendimientos y proyectos digitales."
+  />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <header class="hero">
     <nav class="navbar">
-      <h1 class="logo">Nube Derivada</h1>
-      <a href="#contacto" class="nav-button">Contacto</a>
+      <div class="brand">
+        <span class="brand-icon">☁️</span>
+        <span class="brand-name">Nube Derivada</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </div>
     </nav>
 
     <section class="hero-content">
-      <h2>Soluciones digitales simples y efectivas</h2>
-      <p>
-        Creamos páginas web modernas, rápidas y adaptadas a las necesidades de tu negocio.
+      <p class="tagline">Diseño web simple, moderno y funcional</p>
+
+      <h1>Creamos sitios web de una página para que tu proyecto se vea profesional.</h1>
+
+      <p class="hero-text">
+        Ayudamos a negocios, estudiantes y emprendedores a tener presencia en internet
+        con páginas rápidas, claras y fáciles de mantener.
       </p>
-      <a href="#servicios" class="cta">Ver servicios</a>
+
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-primary">Quiero mi página</a>
+        <a href="#servicios" class="btn btn-secondary">Ver servicios</a>
+      </div>
     </section>
   </header>
 
   <main>
+
     <section id="servicios" class="section">
-      <h2>Servicios</h2>
+      <div class="section-header">
+        <p class="section-label">Servicios</p>
+        <h2>Todo lo básico para lanzar tu presencia digital</h2>
+        <p>
+          Una página clara debe explicar quién eres, qué ofreces y cómo pueden contactarte.
+        </p>
+      </div>
 
       <div class="cards">
-        <div class="card">
-          <h3>Diseño web</h3>
-          <p>Páginas modernas, limpias y adaptadas a celulares.</p>
-        </div>
+        <article class="card">
+          <div class="card-icon">💻</div>
+          <h3>Landing page</h3>
+          <p>
+            Creamos una página de una sola vista con información esencial,
+            diseño moderno y estructura profesional.
+          </p>
+        </article>
 
-        <div class="card">
-          <h3>Despliegue</h3>
-          <p>Publicamos tu sitio en internet usando hosting y dominio.</p>
-        </div>
+        <article class="card">
+          <div class="card-icon">📱</div>
+          <h3>Diseño responsive</h3>
+          <p>
+            Tu sitio se adapta a celulares, tablets y computadoras para que se vea bien
+            en cualquier pantalla.
+          </p>
+        </article>
 
-        <div class="card">
-          <h3>Automatización</h3>
-          <p>Configuramos GitHub Actions para subir cambios automáticamente.</p>
-        </div>
+        <article class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Publicación web</h3>
+          <p>
+            Configuramos el despliegue para que tu sitio esté disponible en internet
+            usando hosting y GitHub.
+          </p>
+        </article>
       </div>
     </section>
 
-    <section id="contacto" class="section contact">
-      <h2>Contacto</h2>
-      <p>¿Quieres una página web para tu proyecto?</p>
-      <a href="mailto:tu-correo@example.com" class="cta">Escríbeme</a>
+    <section id="proceso" class="section process-section">
+      <div class="section-header">
+        <p class="section-label">Proceso</p>
+        <h2>Cómo trabajamos</h2>
+      </div>
+
+      <div class="steps">
+        <article class="step">
+          <span>01</span>
+          <h3>Definimos el objetivo</h3>
+          <p>
+            Decidimos si la página será para vender, presentar un servicio,
+            mostrar un portafolio o recibir contactos.
+          </p>
+        </article>
+
+        <article class="step">
+          <span>02</span>
+          <h3>Diseñamos la estructura</h3>
+          <p>
+            Organizamos las secciones principales: inicio, servicios,
+            proceso y contacto.
+          </p>
+        </article>
+
+        <article class="step">
+          <span>03</span>
+          <h3>Publicamos el sitio</h3>
+          <p>
+            Subimos los archivos al hosting para que cualquier persona pueda visitar la página.
+          </p>
+        </article>
+      </div>
     </section>
+
+    <section id="contacto" class="section contact-section">
+      <div class="contact-box">
+        <p class="section-label">Contacto</p>
+        <h2>¿Listo para crear tu sitio web?</h2>
+        <p>
+          Escríbenos y cuéntanos qué tipo de página necesitas para tu proyecto.
+        </p>
+
+        <a href="mailto:tu-correo@example.com" class="btn btn-primary">
+          Enviar correo
+        </a>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
+  <footer class="footer">
     <p>© 2026 Nube Derivada. Todos los derechos reservados.</p>
   </footer>
 
